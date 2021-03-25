@@ -3,7 +3,7 @@
 #include <fstream>
 #include "Operations.h"
 using namespace std;
-
+//Операции над матрицами
 void printhelp()
 {
     cout << "Choose a operation:\n" << "-r - swap a row\n" << "-c - swap a column\n" << "-t - transposition\n" << "-h - help\n";
