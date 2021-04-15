@@ -13,7 +13,7 @@ void printerror()
 {
     cout << "ERROR\n";
 }
-
+//Наполнение массива
 void FillArray(int a[5][5], const int ROW, const int COL)
 {
     int i, j;
@@ -23,7 +23,7 @@ void FillArray(int a[5][5], const int ROW, const int COL)
         for (j = 0; j < COL; j++) f >> a[i][j];
     }
 }
-
+//Вывод массива
 void PrintArray(int a[5][5], const int ROW, const int COL)
 {
     int i, j;
