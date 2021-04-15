@@ -8,12 +8,12 @@ void printhelp()
 {
     cout << "Choose a operation:\n" << "-r - swap a row\n" << "-c - swap a column\n" << "-t - transposition\n" << "-h - help\n";
 }
-
+//Вывод ошибки
 void printerror()
 {
     cout << "ERROR\n";
 }
-
+//Наполнение массива
 void FillArray(int a[5][5], const int ROW, const int COL)
 {
     int i, j;
