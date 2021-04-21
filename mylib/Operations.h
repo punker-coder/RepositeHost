@@ -1,5 +1,5 @@
 #pragma once
-//My_Functions
+//Функции
 void printhelp();
 void printerror();
 void FillArray(int a[5][5], const int ROW, const int COL);
