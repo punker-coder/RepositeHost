@@ -13,7 +13,7 @@ void printerror()
 {
     cout << "ERROR\n";
 }
-//Наполнение массива
+//Наполнение матрицы
 void FillArray(int a[5][5], const int ROW, const int COL)
 {
     int i, j;
