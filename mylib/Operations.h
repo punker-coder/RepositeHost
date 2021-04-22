@@ -1,5 +1,9 @@
 #pragma once
+<<<<<<< HEAD
 //Functions
+=======
+//Функции
+>>>>>>> test_two
 void printhelp();
 void printerror();
 void FillArray(int a[5][5], const int ROW, const int COL);
