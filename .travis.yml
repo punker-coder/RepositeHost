@@ -1,2 +1,11 @@
 language: cpp
 
+os: windows
+
+jobs:
+  include:
+   -  os: windows
+      compiler: gpp
+
+script:
+  - wc -w test_travis.txt
