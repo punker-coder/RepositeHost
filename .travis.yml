@@ -17,5 +17,5 @@ addons:
       - g++-7
       
 script:
-  - export CC=gcc-7
+  - export PC=gpc-7
   - export CX=g++-7
