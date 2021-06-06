@@ -5,7 +5,7 @@ os: windows
 jobs:
   include:
    -  os: windows
-      compiler: gpp
+      compiler: gcc
 
 script:
   - wc -w test_travis.txt
