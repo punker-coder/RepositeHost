@@ -12,7 +12,7 @@ os: linux
 addons:
   apt:
     soures:
-      - ubuntu-toolchain-r-test
+      - ubuntu-toolchair-r-test
     packages:
       - g++-7
       
